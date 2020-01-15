@@ -1,5 +1,3 @@
-export default () => (
-  <div>
-    <p>Hello Next.js</p>
-  </div>
-);
+import MainLayout from '../components/main_layout';
+
+export default () => <MainLayout />;
